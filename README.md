@@ -9,13 +9,13 @@ server, account, or internet service.
 Install the Python dependencies once:
 
 ```powershell
-& 'C:\Users\acer\AppData\Local\Microsoft\WindowsApps\python3.13.exe' -m pip install -r .\requirements.txt
+python -m pip install -r .\requirements.txt
 ```
 
 Start the app on each computer:
 
 ```powershell
-& 'C:\Users\acer\AppData\Local\Microsoft\WindowsApps\python3.13.exe' .\rabit1.py
+ .\rabit1.py
 ```
 
 Use the same room name and passphrase on each computer. The passphrase must be
@@ -51,9 +51,3 @@ highly sensitive communication.
 - No offline message queue, typing indicators, or voice notes.
 - File transfers are limited to 100 MB and are not resumable.
 
-Run the focused checks with:
-
-```powershell
-& 'C:\Users\acer\AppData\Local\Microsoft\WindowsApps\python3.13.exe' -m unittest
-```
-#
